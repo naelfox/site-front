@@ -1,0 +1,287 @@
+* {
+    font-family: 'Arimo', sans-serif;
+}
+
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    background: url(../img/capa.png);
+    background-attachment: fixed;
+    font-weight: 70;
+}
+
+
+html, body, #post1 {
+    height: 100%;
+
+}
+
+/*servicos pagina*/
+
+#servicos {
+    margin-top: 100px;
+    height: 50%;
+}
+
+#tabela-preco {
+    position: relative;
+    bottom: 100px;
+}
+
+/*Tabela*/
+.tabela {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tabela thead {
+    background-color: #50401f;
+    color: white;
+    font-size: 20px;
+}
+
+.tabela tbody {
+    background-color: #B69F70;
+    color: #50401f;
+    font-size: 18px;
+}
+
+
+
+/* Barra de rolagem Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #e2c98a #634e25;
+}
+
+/* Barra de rolagem para Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #e2c98a;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #e2c98a;
+    border-radius: 20px;
+    border: 3px solid #634e25;
+}
+
+
+
+/*navbar*/
+nav.nav-custom {
+
+    background: rgba(182, 159, 110, 0.9);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e2c98a;
+    transition: 0.5s;
+
+}
+
+.postagem {
+    text-align: center;
+
+
+}
+
+/*Tipografia*/
+
+h1, p {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/*Posts */
+.caixa {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fundo {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#post1 h1 {
+    font-size: 50px;
+}
+
+#post1 p {
+    font-size: 20px;
+
+}
+
+#post2 h1 {
+    color: #B69F70;
+    text-shadow: none;
+}
+
+#post2 p {
+    color: #634e25;
+    text-shadow: none;
+}
+
+#post2 img {
+    margin: 30px;
+    border-radius: 50%;
+}
+
+#post3 h1, p {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#post4 h1 {
+    color: #B69F70;
+    text-shadow: none;
+    text-align: center;
+}
+
+#post4 h2 {
+    color: #B69F70;
+    font-size: 30px;
+    text-align: center;
+}
+
+#post4 h5 {
+    color: #ce972a;
+    text-align: center;
+}
+
+#post4 p {
+    color: #634e25;
+    text-shadow: none;
+    text-align: justify;
+}
+
+#post4 img {
+    margin: 30px;
+
+}
+
+.card {
+    width: 350px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+#preparo p {
+    font-size: 20px;
+
+}
+
+/* Botão*/
+.btn-custom {
+    background-color: #B69F70;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-custom:hover {
+    background-color: #50401f;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #B69F70;
+    padding: 10px;
+
+}
+
+footer p {
+    font-size: 15px;
+    text-shadow: none;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+
+}
+
+footer a{
+    color: #50401f;
+    transition: 1s;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #947434;
+    transition: 1s;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #post3 img {
+        width: 160px;
+
+    }
+
+    .centralizar {
+        text-align: center;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #post3 img {
+        width: 180px;
+    }
+
+    .centralizar {
+        text-align: center;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #post3 img {
+        width: 200px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #post3 img {
+        width: 250px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #post3 img {
+        width: 300px;
+    }
+
+}
